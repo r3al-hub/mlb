@@ -198,17 +198,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     };
 
-    // Certificate link handling (placeholder for future implementation)
-    const setupCertificateLinks = () => {
-        document.querySelectorAll('.cert-link').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                // In a real implementation, this would link to the actual certificate verification page.
-                alert('In a complete implementation, this would link to your actual certificate verification page.');
-            });
-        });
-    };
-
     // Download resume button (placeholder for future implementation)
     const setupDownloadResume = () => {
         const downloadBtn = document.querySelector('.download-resume');
